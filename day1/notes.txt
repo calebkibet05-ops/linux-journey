@@ -1,1 +1,35 @@
-Fedora Systems Engineer Bootcamp Day 1
+# Day 1 – Fedora Systems Engineer Bootcamp
+
+Date: (Today's date)
+
+## Mission
+
+Set up a Fedora Linux workspace for the 30-Day Systems Engineering Bootcamp and initialize a professional Git repository.
+
+## Commands Practiced
+
+cat /etc/fedora-release
+hostnamectl
+whoami
+pwd
+mkdir -p ~/linux-journey/{notes,labs,scripts}
+tree ~/linux-journey
+
+## What I Learned
+
+- Fedora uses `dnf` for package management.
+- `hostnamectl` displays system identity information.
+- `pwd` shows the current working directory.
+- `mkdir -p` creates nested directories in one command.
+- `tree` helps visualize a project's folder structure.
+
+## Workspace Created
+
+linux-journey/
+├── notes/
+├── labs/
+└── scripts/
+
+## Reflection
+
+Today I created the foundation for my Linux engineering portfolio. From now on, every lab, script, and troubleshooting exercise will be documented in this repository.Fedora Systems Engineer Bootcamp Day 1
