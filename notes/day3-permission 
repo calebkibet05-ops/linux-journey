@@ -1,0 +1,21 @@
+# Day 3 – Fedora Permissions
+
+## Permission Numbers
+
+- 755 = rwxr-xr-x
+- 644 = rw-r--r--
+- 700 = rwx------
+- 600 = rw-------
+
+## Commands
+
+- chmod
+- ls -l
+- id
+- groups
+- umask
+
+## Key Lesson
+
+SSH private keys should use 600 permissions.o
+

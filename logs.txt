@@ -1,0 +1,3 @@
+Linux is powerful
+Fedora uses dnf
+systemctl manages services
