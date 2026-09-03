@@ -1,0 +1,44 @@
+=== IP ADDRESSES ===
+lo               UNKNOWN        127.0.0.1/8 ::1/128 
+eno1             DOWN           
+wlp2s0           UP             192.168.1.146/24 fe80::cf5f:88a7:af70:7d31/64 
+docker0          DOWN           172.17.0.1/16 
+
+=== ROUTES ===
+default via 192.168.1.1 dev wlp2s0 proto dhcp src 192.168.1.146 metric 600 
+172.17.0.0/16 dev docker0 proto kernel scope link src 172.17.0.1 linkdown 
+192.168.1.0/24 dev wlp2s0 proto kernel scope link src 192.168.1.146 metric 600 
+
+=== LISTENING PORTS ===
+Netid State  Recv-Q Send-Q                      Local Address:Port  Peer Address:Port
+udp   UNCONN 0      0                                 0.0.0.0:60413      0.0.0.0:*   
+udp   UNCONN 0      0                           192.168.1.146:3702       0.0.0.0:*   
+udp   UNCONN 0      0                         239.255.255.250:3702       0.0.0.0:*   
+udp   UNCONN 0      0                              172.17.0.1:3702       0.0.0.0:*   
+udp   UNCONN 0      0                         239.255.255.250:3702       0.0.0.0:*   
+udp   UNCONN 0      0                              127.0.0.54:53         0.0.0.0:*   
+udp   UNCONN 0      0                           127.0.0.53%lo:53         0.0.0.0:*   
+udp   UNCONN 0      0                               127.0.0.1:323        0.0.0.0:*   
+udp   UNCONN 0      0                                 0.0.0.0:45774      0.0.0.0:*   
+udp   UNCONN 0      0                             224.0.0.251:5353       0.0.0.0:*   
+udp   UNCONN 0      0                             224.0.0.251:5353       0.0.0.0:*   
+udp   UNCONN 0      0                                 0.0.0.0:5353       0.0.0.0:*   
+udp   UNCONN 0      0                                 0.0.0.0:5355       0.0.0.0:*   
+udp   UNCONN 0      0                                       *:43476            *:*   
+udp   UNCONN 0      0      [fe80::cf5f:88a7:af70:7d31]%wlp2s0:3702          [::]:*   
+udp   UNCONN 0      0                        [ff02::c]%wlp2s0:3702          [::]:*   
+udp   UNCONN 0      0                                   [::1]:323           [::]:*   
+udp   UNCONN 0      0                                    [::]:5353          [::]:*   
+udp   UNCONN 0      0                                    [::]:5355          [::]:*   
+tcp   LISTEN 0      511                               0.0.0.0:80         0.0.0.0:*   
+tcp   LISTEN 0      128                               0.0.0.0:22         0.0.0.0:*   
+tcp   LISTEN 0      4096                           127.0.0.54:53         0.0.0.0:*   
+tcp   LISTEN 0      511                             127.0.0.1:39241      0.0.0.0:*   
+tcp   LISTEN 0      4096                              0.0.0.0:5355       0.0.0.0:*   
+tcp   LISTEN 0      4096                        127.0.0.53%lo:53         0.0.0.0:*   
+tcp   LISTEN 0      10                                0.0.0.0:27500      0.0.0.0:*   
+tcp   LISTEN 0      4096                            127.0.0.1:631        0.0.0.0:*   
+tcp   LISTEN 0      511                                  [::]:80            [::]:*   
+tcp   LISTEN 0      128                                  [::]:22            [::]:*   
+tcp   LISTEN 0      4096                                [::1]:631           [::]:*   
+tcp   LISTEN 0      4096                                 [::]:5355          [::]:*   
