@@ -1,0 +1,11 @@
+=== Default Target ===
+graphical.target
+
+=== Failed Units ===
+  UNIT LOAD ACTIVE SUB DESCRIPTION
+
+0 loaded units listed.
+
+=== NetworkManager ===
+active
+enabled
