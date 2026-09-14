@@ -1,0 +1,3 @@
+drwx------ /home/calebkibet/.ssh
+-rw------- /home/calebkibet/.ssh/id_ed25519
+-rw-r--r-- /home/calebkibet/.ssh/id_ed25519.pub

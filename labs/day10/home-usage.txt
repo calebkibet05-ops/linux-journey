@@ -1,0 +1,17 @@
+0	/home/calebkibet/Documents
+0	/home/calebkibet/labs
+0	/home/calebkibet/Music
+0	/home/calebkibet/Projects
+0	/home/calebkibet/Videos
+4.0K	/home/calebkibet/Work
+8.0K	/home/calebkibet/.agents
+12K	/home/calebkibet/.claude
+16K	/home/calebkibet/.pi
+304K	/home/calebkibet/linux-journey
+2.8M	/home/calebkibet/Downloads
+4.3M	/home/calebkibet/Pictures
+7.7M	/home/calebkibet/.codex
+621M	/home/calebkibet/.config
+1.4G	/home/calebkibet/.local
+2.8G	/home/calebkibet/.cache
+4.8G	/home/calebkibet

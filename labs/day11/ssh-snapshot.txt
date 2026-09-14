@@ -1,0 +1,14 @@
+=== SSH CLIENT VERSION ===
+OpenSSH_10.5p1, OpenSSL 3.6.3 9 Jun 2026
+
+=== OPENSSH PACKAGE ===
+openssh 10.5p1-1
+
+=== SSH SERVICE STATE ===
+inactive
+
+=== SSH BOOT STATE ===
+disabled
+
+=== PORT 22 ===
+Port 22 is not listening

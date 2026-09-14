@@ -1,0 +1,1 @@
+lsof is not installed; deleted-open-file check not performed.

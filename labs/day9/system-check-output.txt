@@ -1,0 +1,27 @@
+=== Omarchy System Check ===
+
+Hostname:
+omarchy-quattro
+
+Kernel:
+7.1.9-arch1-2
+
+Current User:
+calebkibet
+
+Uptime:
+ 10:03:07 up 13:16,  1 user,  load average: 0.78, 0.73, 0.55
+
+Root Filesystem:
+Filesystem        Size  Used Avail Use% Mounted on
+/dev/mapper/root  237G   26G  210G  11% /
+
+Memory:
+               total        used        free      shared  buff/cache   available
+Mem:            14Gi       5.1Gi       8.9Gi       287Mi       2.0Gi       9.9Gi
+Swap:           29Gi        64Mi        29Gi
+
+Important Services:
+NetworkManager        active
+systemd-journald      active
+systemd-logind        active

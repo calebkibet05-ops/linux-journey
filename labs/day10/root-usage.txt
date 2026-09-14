@@ -1,0 +1,8 @@
+0	/mnt
+0	/srv
+4.1M	/root
+95M	/etc
+112M	/var
+465M	/opt
+9.0G	/usr
+9.7G	/

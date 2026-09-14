@@ -1,0 +1,20 @@
+925 /home/calebkibet/linux-journey/day1/notes.txt
+962 /home/calebkibet/linux-journey/notes/day8-systemd.md
+1065 /home/calebkibet/linux-journey/.git/objects/c4/0839ca7c7aff21ee4c9972de804a1e1afb67ed
+1068 /home/calebkibet/linux-journey/LICENSE
+1374 /home/calebkibet/linux-journey/.git/hooks/pre-push.sample
+1492 /home/calebkibet/linux-journey/.git/hooks/prepare-commit-msg.sample
+1649 /home/calebkibet/linux-journey/.git/hooks/pre-commit.sample
+1972 /home/calebkibet/linux-journey/.git/hooks/commit-msg.sample
+2281 /home/calebkibet/linux-journey/labs/day10/storage-snapshot.txt
+2308 /home/calebkibet/linux-journey/.git/hooks/sendemail-validate.sample
+2398 /home/calebkibet/linux-journey/.git/index
+2449 /home/calebkibet/linux-journey/ystemctl list-units --type=service --state=running
+2612 /home/calebkibet/linux-journey/.git/objects/pack/pack-beb0171c49dbd65cf7b361cfbf8621ddafd314d7.idx
+2783 /home/calebkibet/linux-journey/.git/hooks/push-to-checkout.sample
+3257 /home/calebkibet/linux-journey/labs/day7/network-snapshot.txt
+3404 /home/calebkibet/linux-journey/README.md
+3650 /home/calebkibet/linux-journey/.git/hooks/update.sample
+4611 /home/calebkibet/linux-journey/.git/hooks/fsmonitor-watchman.sample
+4898 /home/calebkibet/linux-journey/.git/hooks/pre-rebase.sample
+10382 /home/calebkibet/linux-journey/.git/objects/pack/pack-beb0171c49dbd65cf7b361cfbf8621ddafd314d7.pack
