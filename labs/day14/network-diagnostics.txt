@@ -1,0 +1,98 @@
+=== DATE ===
+Thu Sep 17 09:35:29 PM EAT 2026
+
+=== HOST ===
+omarchy-quattro
+
+=== LINK STATE ===
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+2: wlp1s0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP mode DORMANT group default qlen 1000
+    link/ether 64:bc:58:9f:e2:7d brd ff:ff:ff:ff:ff:ff
+    altname wlx64bc589fe27d
+
+=== IP ADDRESSES ===
+lo               UNKNOWN        127.0.0.1/8 ::1/128 
+wlp1s0           UP             192.168.0.120/24 fe80::4d1b:2696:c7a7:fc19/64 
+
+=== ROUTES ===
+default via 192.168.0.1 dev wlp1s0 proto dhcp src 192.168.0.120 metric 600 
+192.168.0.0/24 dev wlp1s0 proto kernel scope link src 192.168.0.120 metric 600 
+
+=== DNS STATUS ===
+Global
+           Protocols: -LLMNR -mDNS -DNSOverTLS DNSSEC=no/unsupported
+    resolv.conf mode: stub
+Fallback DNS Servers: 9.9.9.9#dns.quad9.net 2620:fe::9#dns.quad9.net
+                      1.1.1.1#cloudflare-dns.com
+                      2606:4700:4700::1111#cloudflare-dns.com 8.8.8.8#dns.google
+                      2001:4860:4860::8888#dns.google
+
+Link 2 (wlp1s0)
+    Current Scopes: DNS
+         Protocols: +DefaultRoute -LLMNR -mDNS -DNSOverTLS DNSSEC=no/unsupported
+Current DNS Server: 192.168.0.1
+       DNS Servers: 192.168.0.1
+        DNS Domain: www.tendawifi.com
+     Default Route: yes
+
+=== LISTENING PORTS ===
+Netid State  Recv-Q Send-Q Local Address:Port  Peer Address:Port
+udp   UNCONN 0      0        224.0.0.251:5353       0.0.0.0:*
+udp   UNCONN 0      0        224.0.0.251:5353       0.0.0.0:*
+udp   UNCONN 0      0        224.0.0.251:5353       0.0.0.0:*
+udp   UNCONN 0      0            0.0.0.0:5353       0.0.0.0:*
+udp   UNCONN 0      0            0.0.0.0:57041      0.0.0.0:*
+udp   UNCONN 0      0         172.17.0.1:53         0.0.0.0:*
+udp   UNCONN 0      0         127.0.0.54:53         0.0.0.0:*
+udp   UNCONN 0      0      127.0.0.53%lo:53         0.0.0.0:*
+udp   UNCONN 0      0               [::]:5353          [::]:*
+udp   UNCONN 0      0                  *:52332            *:*
+tcp   LISTEN 0      4096      172.17.0.1:53         0.0.0.0:*
+tcp   LISTEN 0      4096      127.0.0.54:53         0.0.0.0:*
+tcp   LISTEN 0      4096   127.0.0.53%lo:53         0.0.0.0:*
+tcp   LISTEN 0      4096       127.0.0.1:631        0.0.0.0:*
+tcp   LISTEN 0      4096           [::1]:631           [::]:*
+
+=== LOCALHOST TEST ===
+PING 127.0.0.1 (127.0.0.1) 56(84) bytes of data.
+64 bytes from 127.0.0.1: icmp_seq=1 ttl=64 time=0.068 ms
+64 bytes from 127.0.0.1: icmp_seq=2 ttl=64 time=0.057 ms
+64 bytes from 127.0.0.1: icmp_seq=3 ttl=64 time=0.080 ms
+64 bytes from 127.0.0.1: icmp_seq=4 ttl=64 time=0.060 ms
+
+--- 127.0.0.1 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3080ms
+rtt min/avg/max/mdev = 0.057/0.066/0.080/0.008 ms
+
+=== INTERNET CONNECTIVITY TEST ===
+PING 1.1.1.1 (1.1.1.1) 56(84) bytes of data.
+64 bytes from 1.1.1.1: icmp_seq=1 ttl=52 time=119 ms
+64 bytes from 1.1.1.1: icmp_seq=4 ttl=52 time=826 ms
+
+--- 1.1.1.1 ping statistics ---
+4 packets transmitted, 2 received, 50% packet loss, time 3067ms
+rtt min/avg/max/mdev = 119.121/472.626/826.132/353.505 ms
+
+=== DNS QUERY TEST ===
+example.com: 172.66.147.243                                 -- link: wlp1s0
+             104.20.23.154                                  -- link: wlp1s0
+             2606:4700:10::6814:179a                        -- link: wlp1s0
+             2606:4700:10::ac42:93f3                        -- link: wlp1s0
+
+-- Information acquired via protocol DNS in 1.2ms.
+-- Data is authenticated: no; Data was acquired via local or encrypted transport: no
+-- Data from: cache
+
+=== HTTPS TEST ===
+HTTP/2 200 
+date: Thu, 17 Sep 2026 18:35:39 GMT
+content-type: text/html
+server: cloudflare
+last-modified: Tue, 15 Sep 2026 23:41:26 GMT
+allow: GET, HEAD
+accept-ranges: bytes
+age: 8703
+cf-cache-status: HIT
+cf-ray: a3ca3643c8abaf0f-JNB
+
