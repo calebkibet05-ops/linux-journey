@@ -1,0 +1,15 @@
+=== DIRECTORY ===
+Permissions Size User Date Modified Name
+drwxrws---     - root 19 Sep 20:54  /srv/syslab
+
+=== FILES ===
+
+=== CONFIG STAT ===
+
+=== SECRET STAT ===
+
+=== ACL CONFIG ===
+getfacl not installed
+
+=== ACL SECRET ===
+getfacl not installed

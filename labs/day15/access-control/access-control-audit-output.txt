@@ -1,0 +1,33 @@
+=== ACCESS CONTROL AUDIT ===
+Target: /srv/syslab
+Host: omarchy-quattro
+Time: Sat Sep 19 08:58:11 PM EAT 2026
+
+=== BASIC DETAILS ===
+drwxrws--- 1 root syslab 40 Sep 19 20:54 /srv/syslab
+  File: /srv/syslab
+  Size: 40        	Blocks: 0          IO Block: 4096   directory
+Device: 0,32	Inode: 279106      Links: 1
+Access: (2770/drwxrws---)  Uid: (    0/    root)   Gid: ( 1002/  syslab)
+Access: 2026-09-19 20:54:15.639018730 +0300
+Modify: 2026-09-19 20:54:29.136312847 +0300
+Change: 2026-09-19 20:54:29.136312847 +0300
+ Birth: 2026-09-19 20:54:15.639018730 +0300
+
+=== CONTENTS ===
+
+=== ACL DETAILS ===
+# file: srv/syslab
+# owner: root
+# group: syslab
+# flags: -s-
+user::rwx
+group::rwx
+other::---
+
+
+=== CURRENT UMASK ===
+0022
+u=rwx,g=rx,o=rx
+
+=== AUDIT COMPLETE ===
