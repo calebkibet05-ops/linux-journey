@@ -1,0 +1,22 @@
+Name            : curl
+Version         : 8.21.0-1
+Description     : command line tool and library for transferring data with URLs
+Architecture    : x86_64
+URL             : https://curl.se/
+Licenses        : MIT
+Groups          : None
+Provides        : libcurl.so=4-64
+Depends On      : ca-certificates  brotli  libbrotlidec.so=1-64  krb5  libgssapi_krb5.so=2-64  libidn2  libidn2.so=0-64  libnghttp2  libnghttp2.so=14-64  libnghttp3  libnghttp3.so=9-64  libngtcp2  libngtcp2.so=16-64  libpsl  libpsl.so=5-64  libssh2  libssh2.so=1-64  openssl  libcrypto.so=3-64  libssl.so=3-64  zlib  libz.so=1-64  zstd  libzstd.so=1-64
+Optional Deps   : None
+Required By     : appstream  cfitsio  exiv2  gettext  git  libcmis  libelf  libproxy  libreoffice-fresh  libsixel  libtatsu  llvm  luarocks  networkmanager  obs-studio  omarchy-settings  pacman  poppler  postgresql-libs  raptor  tesseract  tpm2-tss
+Optional For    : inxi  pciutils  systemd
+Conflicts With  : wcurl
+Replaces        : wcurl
+Installed Size  : 2.22 MiB
+Packager        : Christian Hesse <eworm@archlinux.org>
+Build Date      : Wed 24 Jun 2026 09:25:58 AM EAT
+Install Date    : Sun 06 Sep 2026 04:34:07 PM EAT
+Install Reason  : Installed as a dependency for another package
+Install Script  : No
+Validated By    : SHA-256 Sum
+

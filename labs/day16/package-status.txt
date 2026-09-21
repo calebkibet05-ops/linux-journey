@@ -1,0 +1,7 @@
+=== PACKAGE MANAGER ===
+pacman
+
+=== INSTALLED PACKAGE COUNT ===
+980
+
+=== AVAILABLE UPDATES ===
