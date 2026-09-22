@@ -1,0 +1,43 @@
+=== DATE ===
+Tue Sep 22 10:35:25 PM EAT 2026
+
+=== HOSTNAME ===
+omarchy-quattro
+
+=== OPEN PORTS ===
+Netid State  Recv-Q Send-Q Local Address:Port Peer Address:Port
+udp   UNCONN 0      0         172.17.0.1:53        0.0.0.0:*
+udp   UNCONN 0      0         127.0.0.54:53        0.0.0.0:*
+udp   UNCONN 0      0      127.0.0.53%lo:53        0.0.0.0:*
+udp   UNCONN 0      0        224.0.0.251:5353      0.0.0.0:*
+udp   UNCONN 0      0        224.0.0.251:5353      0.0.0.0:*
+udp   UNCONN 0      0            0.0.0.0:5353      0.0.0.0:*
+udp   UNCONN 0      0               [::]:5353         [::]:*
+tcp   LISTEN 0      4096      127.0.0.54:53        0.0.0.0:*
+tcp   LISTEN 0      4096       127.0.0.1:631       0.0.0.0:*
+tcp   LISTEN 0      4096   127.0.0.53%lo:53        0.0.0.0:*
+tcp   LISTEN 0      4096      172.17.0.1:53        0.0.0.0:*
+tcp   LISTEN 0      4096           [::1]:631          [::]:*
+
+=== OPEN PORTS WITH PROCESSES ===
+Netid State  Recv-Q Send-Q Local Address:Port Peer Address:PortProcess
+udp   UNCONN 0      0         172.17.0.1:53        0.0.0.0:*    users:(("systemd-resolve",pid=676,fd=20))
+udp   UNCONN 0      0         127.0.0.54:53        0.0.0.0:*    users:(("systemd-resolve",pid=676,fd=18))
+udp   UNCONN 0      0      127.0.0.53%lo:53        0.0.0.0:*    users:(("systemd-resolve",pid=676,fd=16))
+udp   UNCONN 0      0        224.0.0.251:5353      0.0.0.0:*    users:(("brave",pid=4430,fd=171))
+udp   UNCONN 0      0        224.0.0.251:5353      0.0.0.0:*    users:(("brave",pid=4374,fd=369))
+udp   UNCONN 0      0            0.0.0.0:5353      0.0.0.0:*    users:(("avahi-daemon",pid=881,fd=12))
+udp   UNCONN 0      0               [::]:5353         [::]:*    users:(("avahi-daemon",pid=881,fd=13))
+tcp   LISTEN 0      4096      127.0.0.54:53        0.0.0.0:*    users:(("systemd-resolve",pid=676,fd=19))
+tcp   LISTEN 0      4096       127.0.0.1:631       0.0.0.0:*    users:(("cupsd",pid=939,fd=7))
+tcp   LISTEN 0      4096   127.0.0.53%lo:53        0.0.0.0:*    users:(("systemd-resolve",pid=676,fd=17))
+tcp   LISTEN 0      4096      172.17.0.1:53        0.0.0.0:*    users:(("systemd-resolve",pid=676,fd=21))
+tcp   LISTEN 0      4096           [::1]:631          [::]:*    users:(("cupsd",pid=939,fd=6))
+
+=== NFTABLES STATUS ===
+inactive
+
+=== FAILED SERVICES ===
+  UNIT LOAD ACTIVE SUB DESCRIPTION
+
+0 loaded units listed.
