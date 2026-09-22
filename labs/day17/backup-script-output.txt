@@ -1,0 +1,11 @@
+=== PROJECT BACKUP ===
+Source: labs/day17/backup-source
+Destination: backups/project-backup-20260922-140057.tar.gz
+
+Backup created.
+Checksum created.
+
+=== VERIFYING ARCHIVE ===
+Archive verification: PASS
+
+Backup completed successfully.

@@ -1,0 +1,3 @@
+nginx=running
+ssh=running
+network=running
