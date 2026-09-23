@@ -1,0 +1,8 @@
+● system-maintenance.timer - Run Daily Maintenance Timer
+     Loaded: loaded (/home/calebkibet/.config/systemd/user/system-maintenance.timer; enabled; preset: enabled)
+     Active: active (waiting) since Wed 2026-09-23 12:17:16 EAT; 4min 9s ago
+ Invocation: 33f2346794d74638b2f9c2d0cca403f1
+    Trigger: Wed 2026-09-23 20:00:00 EAT; 7h left
+   Triggers: ● system-maintenance.service
+
+Sep 23 12:17:16 omarchy-quattro systemd[2623]: Started Run Daily Maintenance Timer.

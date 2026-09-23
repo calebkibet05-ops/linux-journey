@@ -1,0 +1,15 @@
+ Static hostname: omarchy-quattro
+       Icon name: computer-laptop
+         Chassis: laptop 💻
+      Machine ID: fa667a86f2584ee88fadb8dc947707b2
+         Boot ID: d9423dedb5dd4e3c885a49de44250307
+Operating System: Omarchy
+          Kernel: Linux 7.1.9-arch1-2
+    Architecture: x86-64
+ Hardware Vendor: HP
+  Hardware Model: HP EliteBook 845 G7 Notebook PC
+    Hardware SKU: 2Z8Y9UC#ABA
+Hardware Version: SBKPFV3
+Firmware Version: S77 Ver. 01.24.02
+   Firmware Date: Thu 2026-05-07
+    Firmware Age: 4month 2w 3d

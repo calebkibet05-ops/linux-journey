@@ -1,0 +1,129 @@
+==============================
+System Maintenance Report
+Time: Wed Sep 23 12:14:13 PM EAT 2026
+Host: omarchy-quattro
+
+Disk Usage
+Filesystem        Size  Used Avail Use% Mounted on
+dev               7.5G     0  7.5G   0% /dev
+run               7.5G  1.6M  7.5G   1% /run
+efivarfs          150K   68K   78K  47% /sys/firmware/efi/efivars
+/dev/mapper/root  237G   27G  210G  12% /
+tmpfs             7.5G  116M  7.4G   2% /dev/shm
+none              1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+none              1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+tmpfs             7.5G   54M  7.5G   1% /tmp
+/dev/mapper/root  237G   27G  210G  12% /home
+/dev/mapper/root  237G   27G  210G  12% /var/cache/pacman/pkg
+/dev/mapper/root  237G   27G  210G  12% /var/log
+/dev/nvme0n1p1    2.0G  146M  1.9G   8% /boot
+tmpfs             1.5G  1.4M  1.5G   1% /run/user/1000
+
+Memory
+               total        used        free      shared  buff/cache   available
+Mem:            14Gi       4.4Gi       8.4Gi       189Mi       3.2Gi        10Gi
+Swap:           29Gi          0B        29Gi
+
+Uptime
+ 12:14:13 up  1:55,  1 user,  load average: 1.44, 0.78, 0.39
+
+Top CPU Processes
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+calebki+   11922  100  0.0   9088  5988 pts/0    R+   12:14   0:00 ps aux --sort=-%cpu
+calebki+    4678  5.2  2.4 1518532752 378908 ?   Sl   10:20   5:58 /opt/brave-bin/brave --type=renderer --crashpad-handler-pid=4397 --enable-crash-reporter=7ed4a78d-ee4d-435b-8607-d98390ee98e5, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=23 --launch-time-ticks=60854124 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,12579438324038578739,16194323081204196777,2097152 --field-trial-handle=3,i,2336034760894045298,3309319596856274611,262144 --disable-features=EyeDropper --variations-seed-version --pseudonymization-salt-handle=7,i,3979847538230502303,5904396083643854153,4 --trace-process-track-uuid=3190709007863834021
+calebki+    4391  2.4  2.9 55794488 463700 ?     Ssl  10:20   2:47 /opt/brave-bin/brave
+calebki+    5182  1.8  0.9 88648312 144624 ?     Sl   10:20   2:08 /opt/brave-bin/brave --type=utility --utility-sub-type=media.mojom.CdmServiceBroker --lang=en-US --service-sandbox-type=cdm --render-node-override=/dev/dri/renderD128 --crashpad-handler-pid=4397 --enable-crash-reporter=7ed4a78d-ee4d-435b-8607-d98390ee98e5, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,6295581828103165890,11086464505819364399,524288 --field-trial-handle=3,i,2336034760894045298,3309319596856274611,262144 --disable-features=EyeDropper --variations-seed-version --pseudonymization-salt-handle=7,i,3979847538230502303,5904396083643854153,4 --trace-process-track-uuid=3190709023793545454
+
+Top Memory Processes
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+calebki+    4837  1.5  3.6 1520497396 571544 ?   Sl   10:20   1:48 /opt/brave-bin/brave --type=renderer --crashpad-handler-pid=4397 --enable-crash-reporter=7ed4a78d-ee4d-435b-8607-d98390ee98e5, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=26 --launch-time-ticks=65403679 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,16310226353956606205,2996381155490223342,2097152 --field-trial-handle=3,i,2336034760894045298,3309319596856274611,262144 --disable-features=EyeDropper --variations-seed-version --pseudonymization-salt-handle=7,i,3979847538230502303,5904396083643854153,4 --trace-process-track-uuid=3190709010674959568
+calebki+    5418  1.6  3.2 1544246752 504152 ?   Sl   10:21   1:54 /opt/brave-bin/brave --type=renderer --crashpad-handler-pid=4397 --enable-crash-reporter=7ed4a78d-ee4d-435b-8607-d98390ee98e5, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=43 --launch-time-ticks=122586963 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,6527498053797505660,15201453154038329958,2097152 --field-trial-handle=3,i,2336034760894045298,3309319596856274611,262144 --disable-features=EyeDropper --variations-seed-version --pseudonymization-salt-handle=7,i,3979847538230502303,5904396083643854153,4 --trace-process-track-uuid=3190709026604671001
+calebki+    4391  2.4  2.9 55794488 463700 ?     Ssl  10:20   2:47 /opt/brave-bin/brave
+calebki+    2925  0.1  2.4 1027572 381972 ?      Sl   10:19   0:09 quickshell -n -p /usr/share/omarchy/shell
+
+==============================
+System Maintenance Report
+Time: Wed Sep 23 12:15:07 PM EAT 2026
+Host: omarchy-quattro
+
+Disk Usage
+Filesystem        Size  Used Avail Use% Mounted on
+dev               7.5G     0  7.5G   0% /dev
+run               7.5G  1.6M  7.5G   1% /run
+efivarfs          150K   68K   78K  47% /sys/firmware/efi/efivars
+/dev/mapper/root  237G   27G  210G  12% /
+tmpfs             7.5G  116M  7.4G   2% /dev/shm
+none              1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+none              1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+tmpfs             7.5G   54M  7.5G   1% /tmp
+/dev/mapper/root  237G   27G  210G  12% /home
+/dev/mapper/root  237G   27G  210G  12% /var/cache/pacman/pkg
+/dev/mapper/root  237G   27G  210G  12% /var/log
+/dev/nvme0n1p1    2.0G  146M  1.9G   8% /boot
+tmpfs             1.5G  1.4M  1.5G   1% /run/user/1000
+
+Memory
+               total        used        free      shared  buff/cache   available
+Mem:            14Gi       4.3Gi       8.2Gi       189Mi       3.4Gi        10Gi
+Swap:           29Gi          0B        29Gi
+
+Uptime
+ 12:15:07 up  1:55,  1 user,  load average: 1.46, 0.93, 0.47
+
+Top CPU Processes
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+calebki+    4678  5.2  2.4 1518532752 385724 ?   Sl   10:20   6:01 /opt/brave-bin/brave --type=renderer --crashpad-handler-pid=4397 --enable-crash-reporter=7ed4a78d-ee4d-435b-8607-d98390ee98e5, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=23 --launch-time-ticks=60854124 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,12579438324038578739,16194323081204196777,2097152 --field-trial-handle=3,i,2336034760894045298,3309319596856274611,262144 --disable-features=EyeDropper --variations-seed-version --pseudonymization-salt-handle=7,i,3979847538230502303,5904396083643854153,4 --trace-process-track-uuid=3190709007863834021
+calebki+    4391  2.4  2.9 55792304 464000 ?     Ssl  10:20   2:49 /opt/brave-bin/brave
+calebki+    4837  1.9  3.6 1520499636 573988 ?   Sl   10:20   2:12 /opt/brave-bin/brave --type=renderer --crashpad-handler-pid=4397 --enable-crash-reporter=7ed4a78d-ee4d-435b-8607-d98390ee98e5, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=26 --launch-time-ticks=65403679 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,16310226353956606205,2996381155490223342,2097152 --field-trial-handle=3,i,2336034760894045298,3309319596856274611,262144 --disable-features=EyeDropper --variations-seed-version --pseudonymization-salt-handle=7,i,3979847538230502303,5904396083643854153,4 --trace-process-track-uuid=3190709010674959568
+calebki+    5182  1.8  0.9 88648312 144624 ?     Sl   10:20   2:10 /opt/brave-bin/brave --type=utility --utility-sub-type=media.mojom.CdmServiceBroker --lang=en-US --service-sandbox-type=cdm --render-node-override=/dev/dri/renderD128 --crashpad-handler-pid=4397 --enable-crash-reporter=7ed4a78d-ee4d-435b-8607-d98390ee98e5, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,6295581828103165890,11086464505819364399,524288 --field-trial-handle=3,i,2336034760894045298,3309319596856274611,262144 --disable-features=EyeDropper --variations-seed-version --pseudonymization-salt-handle=7,i,3979847538230502303,5904396083643854153,4 --trace-process-track-uuid=3190709023793545454
+
+Top Memory Processes
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+calebki+    4837  1.9  3.6 1520499636 573988 ?   Sl   10:20   2:12 /opt/brave-bin/brave --type=renderer --crashpad-handler-pid=4397 --enable-crash-reporter=7ed4a78d-ee4d-435b-8607-d98390ee98e5, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=26 --launch-time-ticks=65403679 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,16310226353956606205,2996381155490223342,2097152 --field-trial-handle=3,i,2336034760894045298,3309319596856274611,262144 --disable-features=EyeDropper --variations-seed-version --pseudonymization-salt-handle=7,i,3979847538230502303,5904396083643854153,4 --trace-process-track-uuid=3190709010674959568
+calebki+    5418  1.6  3.2 1544246624 504180 ?   Sl   10:21   1:55 /opt/brave-bin/brave --type=renderer --crashpad-handler-pid=4397 --enable-crash-reporter=7ed4a78d-ee4d-435b-8607-d98390ee98e5, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=43 --launch-time-ticks=122586963 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,6527498053797505660,15201453154038329958,2097152 --field-trial-handle=3,i,2336034760894045298,3309319596856274611,262144 --disable-features=EyeDropper --variations-seed-version --pseudonymization-salt-handle=7,i,3979847538230502303,5904396083643854153,4 --trace-process-track-uuid=3190709026604671001
+calebki+    4391  2.4  2.9 55792304 464000 ?     Ssl  10:20   2:49 /opt/brave-bin/brave
+calebki+    4678  5.2  2.4 1518532752 385724 ?   Sl   10:20   6:01 /opt/brave-bin/brave --type=renderer --crashpad-handler-pid=4397 --enable-crash-reporter=7ed4a78d-ee4d-435b-8607-d98390ee98e5, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=23 --launch-time-ticks=60854124 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,12579438324038578739,16194323081204196777,2097152 --field-trial-handle=3,i,2336034760894045298,3309319596856274611,262144 --disable-features=EyeDropper --variations-seed-version --pseudonymization-salt-handle=7,i,3979847538230502303,5904396083643854153,4 --trace-process-track-uuid=3190709007863834021
+
+==============================
+System Maintenance Report
+Time: Wed Sep 23 12:17:35 PM EAT 2026
+Host: omarchy-quattro
+
+Disk Usage
+Filesystem        Size  Used Avail Use% Mounted on
+dev               7.5G     0  7.5G   0% /dev
+run               7.5G  1.6M  7.5G   1% /run
+efivarfs          150K   68K   78K  47% /sys/firmware/efi/efivars
+/dev/mapper/root  237G   27G  210G  12% /
+tmpfs             7.5G  111M  7.4G   2% /dev/shm
+none              1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+none              1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+tmpfs             7.5G   54M  7.5G   1% /tmp
+/dev/mapper/root  237G   27G  210G  12% /home
+/dev/mapper/root  237G   27G  210G  12% /var/cache/pacman/pkg
+/dev/mapper/root  237G   27G  210G  12% /var/log
+/dev/nvme0n1p1    2.0G  146M  1.9G   8% /boot
+tmpfs             1.5G  1.7M  1.5G   1% /run/user/1000
+
+Memory
+               total        used        free      shared  buff/cache   available
+Mem:            14Gi       4.3Gi       8.2Gi       185Mi       3.4Gi        10Gi
+Swap:           29Gi          0B        29Gi
+
+Uptime
+ 12:17:35 up  1:58,  1 user,  load average: 1.41, 1.13, 0.61
+
+Top CPU Processes
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+calebki+   14137 25.0  0.0   8116  5784 ?        Ss   12:17   0:00 bash /home/calebkibet/linux-journey/scripts/system-maintenance.sh
+calebki+    4678  5.2  2.4 1518532752 376748 ?   Sl   10:20   6:10 /opt/brave-bin/brave --type=renderer --crashpad-handler-pid=4397 --enable-crash-reporter=7ed4a78d-ee4d-435b-8607-d98390ee98e5, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=23 --launch-time-ticks=60854124 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,12579438324038578739,16194323081204196777,2097152 --field-trial-handle=3,i,2336034760894045298,3309319596856274611,262144 --disable-features=EyeDropper --variations-seed-version --pseudonymization-salt-handle=7,i,3979847538230502303,5904396083643854153,4 --trace-process-track-uuid=3190709007863834021
+calebki+    4837  2.9  3.6 1520495656 571748 ?   Sl   10:20   3:25 /opt/brave-bin/brave --type=renderer --crashpad-handler-pid=4397 --enable-crash-reporter=7ed4a78d-ee4d-435b-8607-d98390ee98e5, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=26 --launch-time-ticks=65403679 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,16310226353956606205,2996381155490223342,2097152 --field-trial-handle=3,i,2336034760894045298,3309319596856274611,262144 --disable-features=EyeDropper --variations-seed-version --pseudonymization-salt-handle=7,i,3979847538230502303,5904396083643854153,4 --trace-process-track-uuid=3190709010674959568
+calebki+    4391  2.5  2.9 55791412 463484 ?     Ssl  10:20   2:56 /opt/brave-bin/brave
+
+Top Memory Processes
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+calebki+    4837  2.9  3.6 1520495656 571748 ?   Sl   10:20   3:25 /opt/brave-bin/brave --type=renderer --crashpad-handler-pid=4397 --enable-crash-reporter=7ed4a78d-ee4d-435b-8607-d98390ee98e5, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=26 --launch-time-ticks=65403679 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,16310226353956606205,2996381155490223342,2097152 --field-trial-handle=3,i,2336034760894045298,3309319596856274611,262144 --disable-features=EyeDropper --variations-seed-version --pseudonymization-salt-handle=7,i,3979847538230502303,5904396083643854153,4 --trace-process-track-uuid=3190709010674959568
+calebki+    5418  1.6  3.4 1544246752 535704 ?   Sl   10:21   1:56 /opt/brave-bin/brave --type=renderer --crashpad-handler-pid=4397 --enable-crash-reporter=7ed4a78d-ee4d-435b-8607-d98390ee98e5, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=43 --launch-time-ticks=122586963 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,6527498053797505660,15201453154038329958,2097152 --field-trial-handle=3,i,2336034760894045298,3309319596856274611,262144 --disable-features=EyeDropper --variations-seed-version --pseudonymization-salt-handle=7,i,3979847538230502303,5904396083643854153,4 --trace-process-track-uuid=3190709026604671001
+calebki+    4391  2.5  2.9 55791412 463484 ?     Ssl  10:20   2:56 /opt/brave-bin/brave
+calebki+    2925  0.1  2.4 1044988 383188 ?      Sl   10:19   0:10 quickshell -n -p /usr/share/omarchy/shell
+
