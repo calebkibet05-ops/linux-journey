@@ -1,0 +1,2 @@
+20971520 bytes labs/day22/test-data/test-file-1.bin
+10485760 bytes labs/day22/test-data/test-file-2.bin

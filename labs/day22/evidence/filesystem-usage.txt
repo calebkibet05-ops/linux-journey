@@ -1,0 +1,47 @@
+=== HUMAN-READABLE SPACE USAGE ===
+Filesystem        Size  Used Avail Use% Mounted on
+dev               7.5G     0  7.5G   0% /dev
+run               7.5G  1.6M  7.5G   1% /run
+efivarfs          150K   72K   74K  50% /sys/firmware/efi/efivars
+/dev/mapper/root  237G   27G  210G  12% /
+tmpfs             7.5G  160M  7.4G   3% /dev/shm
+none              1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+none              1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+/dev/mapper/root  237G   27G  210G  12% /home
+tmpfs             7.5G  102M  7.4G   2% /tmp
+/dev/mapper/root  237G   27G  210G  12% /var/cache/pacman/pkg
+/dev/mapper/root  237G   27G  210G  12% /var/log
+/dev/nvme0n1p1    2.0G  146M  1.9G   8% /boot
+tmpfs             1.5G  6.9M  1.5G   1% /run/user/1000
+
+=== FILESYSTEM TYPES ===
+Filesystem       Type     1K-blocks     Used Available Use% Mounted on
+dev              devtmpfs   7769408        0   7769408   0% /dev
+run              tmpfs      7836764     1612   7835152   1% /run
+efivarfs         efivarfs       150       72        74  50% /sys/firmware/efi/efivars
+/dev/mapper/root btrfs    247943168 27456836 219431084  12% /
+tmpfs            tmpfs      7836764   163116   7673648   3% /dev/shm
+none             tmpfs         1024        0      1024   0% /run/credentials/systemd-journald.service
+none             tmpfs         1024        0      1024   0% /run/credentials/systemd-resolved.service
+/dev/mapper/root btrfs    247943168 27456836 219431084  12% /home
+tmpfs            tmpfs      7836764   103940   7732824   2% /tmp
+/dev/mapper/root btrfs    247943168 27456836 219431084  12% /var/cache/pacman/pkg
+/dev/mapper/root btrfs    247943168 27456836 219431084  12% /var/log
+/dev/nvme0n1p1   vfat       2093048   148496   1944552   8% /boot
+tmpfs            tmpfs      1567352     6996   1560356   1% /run/user/1000
+
+=== INODE USAGE ===
+Filesystem        Inodes IUsed   IFree IUse% Mounted on
+dev              1942352   617 1941735    1% /dev
+run              1959191  1085 1958106    1% /run
+efivarfs               0     0       0     - /sys/firmware/efi/efivars
+/dev/mapper/root       0     0       0     - /
+tmpfs            1959191   652 1958539    1% /dev/shm
+none                1024     1    1023    1% /run/credentials/systemd-journald.service
+none                1024     1    1023    1% /run/credentials/systemd-resolved.service
+/dev/mapper/root       0     0       0     - /home
+tmpfs            1048576    64 1048512    1% /tmp
+/dev/mapper/root       0     0       0     - /var/cache/pacman/pkg
+/dev/mapper/root       0     0       0     - /var/log
+/dev/nvme0n1p1         0     0       0     - /boot
+tmpfs             391838   162  391676    1% /run/user/1000

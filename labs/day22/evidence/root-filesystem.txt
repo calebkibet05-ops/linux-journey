@@ -1,0 +1,11 @@
+=== ROOT FILESYSTEM ===
+Filesystem        Size  Used Avail Use% Mounted on
+/dev/mapper/root  237G   27G  210G  12% /
+
+=== ROOT INODES ===
+Filesystem       Inodes IUsed IFree IUse% Mounted on
+/dev/mapper/root      0     0     0     - /
+
+=== ROOT MOUNT ===
+TARGET SOURCE               FSTYPE OPTIONS
+/      /dev/mapper/root[/@] btrfs  rw,relatime,compress=zstd:3,ssd,space_cache=v2,subvolid=256,subvol=/@

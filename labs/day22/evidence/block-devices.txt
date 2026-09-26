@@ -1,0 +1,9 @@
+NAME        TYPE    SIZE FSTYPE      MOUNTPOINTS
+zram0       disk   14.9G swap        [SWAP]
+nvme0n1     disk  238.5G             
+├─nvme0n1p1 part      2G vfat        /boot
+└─nvme0n1p2 part  236.5G crypto_LUKS 
+  └─root    crypt 236.5G btrfs       /var/log
+                                     /var/cache/pacman/pkg
+                                     /home
+                                     /
