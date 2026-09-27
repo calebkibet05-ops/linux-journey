@@ -1,0 +1,27 @@
+● systemd-journald.service - Journal Service
+     Loaded: loaded (/usr/lib/systemd/system/systemd-journald.service; static)
+     Active: active (running) since Sun 2026-09-27 12:06:56 EAT; 13min ago
+ Invocation: c984cd375f434a74b8031f6d4a0732a2
+TriggeredBy: ● systemd-journald.socket
+             ● systemd-journald-dev-log.socket
+             ○ systemd-journald-audit.socket
+       Docs: man:systemd-journald.service(8)
+             man:journald.conf(5)
+   Main PID: 562 (systemd-journal)
+     Status: "Processing requests..."
+      Tasks: 1 (limit: 18291)
+   FD Store: 49 (limit: 4224)
+     Memory: 18.8M (peak: 30.7M)
+        CPU: 518ms
+     CGroup: /system.slice/systemd-journald.service
+             └─562 /usr/lib/systemd/systemd-journald
+
+Sep 27 12:06:56 omarchy-quattro systemd-journald[562]: Collecting audit messages is disabled.
+Sep 27 12:06:56 omarchy-quattro systemd-journald[562]: Journal started
+Sep 27 12:06:56 omarchy-quattro systemd-journald[562]: Runtime Journal (/run/log/journal/fa667a86f2584ee88fadb8dc947707b2) is 8M, max 765.3M, 757.3M free.
+Sep 27 12:06:58 omarchy-quattro systemd-journald[562]: Time spent on flushing to /var/log/journal/fa667a86f2584ee88fadb8dc947707b2 is 20.269ms for 1183 entries.
+Sep 27 12:06:58 omarchy-quattro systemd-journald[562]: System Journal (/var/log/journal/fa667a86f2584ee88fadb8dc947707b2) is 450.9M, max 4G, 3.5G free.
+Sep 27 12:06:58 omarchy-quattro systemd-journald[562]: Received client request to flush runtime journal.
+Sep 27 12:06:58 omarchy-quattro systemd-journald[562]: File /var/log/journal/fa667a86f2584ee88fadb8dc947707b2/system.journal corrupted or uncleanly shut down, renaming and replacing.
+Sep 27 12:07:15 omarchy-quattro systemd-journald[562]: File /var/log/journal/fa667a86f2584ee88fadb8dc947707b2/user-1000.journal corrupted or uncleanly shut down, renaming and replacing.
+Notice: journal has been rotated since unit was started, output may be incomplete.

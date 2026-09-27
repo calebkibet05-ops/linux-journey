@@ -1,0 +1,4 @@
+Test PID: 7900
+After SIGTERM:
+    PID STAT CMD
+Process no longer exists
