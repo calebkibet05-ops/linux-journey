@@ -1,0 +1,2 @@
+Permissions Size User       Security Context Date Modified Name
+.rw-r--r--    17 calebkibet ?                29 Sep 17:48  labs/day25/selinux-test/example.txt

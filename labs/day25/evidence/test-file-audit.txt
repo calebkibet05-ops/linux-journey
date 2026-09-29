@@ -1,0 +1,25 @@
+==============================
+ SELinux Audit
+==============================
+Host: omarchy-quattro
+Time: Tue Sep 29 05:53:48 PM EAT 2026
+Target: /srv/selinux-lab/example.txt
+
+=== SELINUX MODE ===
+getenforce is unavailable
+
+=== SELINUX STATUS ===
+sestatus is unavailable
+
+=== TARGET CONTEXT ===
+? /srv/selinux-lab/example.txt
+
+=== EXPECTED CONTEXT ===
+matchpathcon is unavailable
+
+=== RECENT AVC DENIALS ===
+No recent AVC denials found.
+
+=== FINAL STATUS ===
+STATUS: ATTENTION REQUIRED
+Warnings detected: 1

@@ -1,0 +1,2 @@
+Permissions Size User       Security Context Date Modified Name
+drwxr-xr-x     - calebkibet ?                29 Sep 17:47  labs/day25/selinux-test
