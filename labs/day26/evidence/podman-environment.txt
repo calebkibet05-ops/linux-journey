@@ -1,0 +1,8 @@
+=== DATE ===
+Sun Oct  4 10:36:36 AM EAT 2026
+
+=== PODMAN VERSION ===
+podman version 6.1.0
+
+=== USER ===
+uid=1000(calebkibet) gid=1000(calebkibet) groups=1000(calebkibet),998(wheel)

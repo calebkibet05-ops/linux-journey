@@ -1,0 +1,3 @@
+=== Container Health Check ===
+Container: nginx-day26
+ERROR: Container does not exist.
