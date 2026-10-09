@@ -1,0 +1,15 @@
+[
+     {
+          "Name": "day27-data",
+          "Driver": "local",
+          "Mountpoint": "/home/calebkibet/.local/share/containers/storage/volumes/day27-data/_data",
+          "CreatedAt": "2026-10-09T11:08:40.942087474+03:00",
+          "Labels": {},
+          "Scope": "local",
+          "Options": {},
+          "MountCount": 0,
+          "NeedsCopyUp": true,
+          "NeedsChown": true,
+          "LockNumber": 0
+     }
+]

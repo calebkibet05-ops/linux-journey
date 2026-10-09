@@ -1,0 +1,2 @@
+=== Day 27 Container Operations Check ===
+ERROR: Container nginx-day27 does not exist.
