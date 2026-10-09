@@ -1,0 +1,50 @@
+Oct 09 11:04:12 omarchy-quattro kernel: wlp1s0: authenticated
+Oct 09 11:04:12 omarchy-quattro kernel: wlp1s0: associate with 4e:a8:1c:b9:68:16 (try 1/3)
+Oct 09 11:04:12 omarchy-quattro NetworkManager[871]: <info>  [1791533052.6510] device (wlp1s0): supplicant interface state: authenticating -> associating
+Oct 09 11:04:12 omarchy-quattro NetworkManager[871]: <info>  [1791533052.6511] device (p2p-dev-wlp1s0): supplicant management interface state: authenticating -> associating
+Oct 09 11:04:12 omarchy-quattro kernel: wlp1s0: RX AssocResp from 4e:a8:1c:b9:68:16 (capab=0x1431 status=0 aid=9)
+Oct 09 11:04:12 omarchy-quattro wpa_supplicant[930]: wlp1s0: Associated with 4e:a8:1c:b9:68:16
+Oct 09 11:04:12 omarchy-quattro wpa_supplicant[930]: wlp1s0: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0
+Oct 09 11:04:12 omarchy-quattro kernel: wlp1s0: associated
+Oct 09 11:04:12 omarchy-quattro kernel: wlp1s0: Limiting TX power to 36 (36 - 0) dBm as advertised by 4e:a8:1c:b9:68:16
+Oct 09 11:04:12 omarchy-quattro NetworkManager[871]: <info>  [1791533052.7425] device (wlp1s0): supplicant interface state: associating -> 4way_handshake
+Oct 09 11:04:12 omarchy-quattro NetworkManager[871]: <info>  [1791533052.7425] device (p2p-dev-wlp1s0): supplicant management interface state: associating -> 4way_handshake
+Oct 09 11:04:12 omarchy-quattro wpa_supplicant[930]: wlp1s0: WPA: Key negotiation completed with 4e:a8:1c:b9:68:16 [PTK=CCMP GTK=CCMP]
+Oct 09 11:04:12 omarchy-quattro wpa_supplicant[930]: wlp1s0: CTRL-EVENT-CONNECTED - Connection to 4e:a8:1c:b9:68:16 completed [id=0 id_str=]
+Oct 09 11:04:12 omarchy-quattro NetworkManager[871]: <info>  [1791533052.8723] device (wlp1s0): supplicant interface state: 4way_handshake -> completed
+Oct 09 11:04:12 omarchy-quattro NetworkManager[871]: <info>  [1791533052.8724] device (wlp1s0): Activation: (wifi) Stage 2 of 5 (Device Configure) successful. Connected to wireless network "OPPO A5 k4up"
+Oct 09 11:04:12 omarchy-quattro NetworkManager[871]: <info>  [1791533052.8724] device (p2p-dev-wlp1s0): supplicant management interface state: 4way_handshake -> completed
+Oct 09 11:04:12 omarchy-quattro NetworkManager[871]: <info>  [1791533052.8745] device (wlp1s0): state change: config -> ip-config (reason 'none', managed-type: 'full')
+Oct 09 11:04:12 omarchy-quattro NetworkManager[871]: <info>  [1791533052.8752] dhcp4 (wlp1s0): activation: beginning transaction (timeout in 45 seconds)
+Oct 09 11:04:12 omarchy-quattro NetworkManager[871]: <info>  [1791533052.9250] dhcp4 (wlp1s0): state changed new lease, address=172.24.153.118, acd pending
+Oct 09 11:04:13 omarchy-quattro NetworkManager[871]: <info>  [1791533053.0561] dhcp4 (wlp1s0): state changed new lease, address=172.24.153.118
+Oct 09 11:04:13 omarchy-quattro avahi-daemon[873]: Joining mDNS multicast group on interface wlp1s0.IPv4 with address 172.24.153.118.
+Oct 09 11:04:13 omarchy-quattro avahi-daemon[873]: New relevant interface wlp1s0.IPv4 for mDNS.
+Oct 09 11:04:13 omarchy-quattro avahi-daemon[873]: Registering new address record for 172.24.153.118 on wlp1s0.IPv4.
+Oct 09 11:04:13 omarchy-quattro NetworkManager[871]: <info>  [1791533053.0709] policy: set 'OPPO A5 k4up' (wlp1s0) as default for IPv4 routing and DNS
+Oct 09 11:04:13 omarchy-quattro systemd-resolved[679]: wlp1s0: Bus client set default route setting: yes
+Oct 09 11:04:13 omarchy-quattro systemd-resolved[679]: wlp1s0: Bus client set DNS server list to: 172.24.153.214
+Oct 09 11:04:13 omarchy-quattro NetworkManager[871]: <info>  [1791533053.0828] device (wlp1s0): state change: ip-config -> ip-check (reason 'none', managed-type: 'full')
+Oct 09 11:04:13 omarchy-quattro NetworkManager[871]: <info>  [1791533053.0843] device (wlp1s0): state change: ip-check -> secondaries (reason 'none', managed-type: 'full')
+Oct 09 11:04:13 omarchy-quattro NetworkManager[871]: <info>  [1791533053.0844] device (wlp1s0): state change: secondaries -> activated (reason 'none', managed-type: 'full')
+Oct 09 11:04:13 omarchy-quattro NetworkManager[871]: <info>  [1791533053.0846] manager: NetworkManager state is now CONNECTED_SITE
+Oct 09 11:04:13 omarchy-quattro NetworkManager[871]: <info>  [1791533053.0875] device (wlp1s0): Activation: successful, device activated.
+Oct 09 11:04:13 omarchy-quattro systemd-resolved[679]: Using degraded feature set UDP instead of UDP+EDNS0 for DNS server 172.24.153.214.
+Oct 09 11:04:13 omarchy-quattro NetworkManager[871]: <info>  [1791533053.8727] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct 09 11:04:14 omarchy-quattro avahi-daemon[873]: Joining mDNS multicast group on interface wlp1s0.IPv6 with address fe80::c9d:6632:b99c:da72.
+Oct 09 11:04:14 omarchy-quattro avahi-daemon[873]: New relevant interface wlp1s0.IPv6 for mDNS.
+Oct 09 11:04:14 omarchy-quattro avahi-daemon[873]: Registering new address record for fe80::c9d:6632:b99c:da72 on wlp1s0.*.
+Oct 09 11:04:22 omarchy-quattro systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+Oct 09 11:08:41 omarchy-quattro podman[33158]: 2026-10-09 11:08:41.005074593 +0300 EAT m=+0.103425430 volume create day27-data
+Oct 09 11:09:28 omarchy-quattro podman[33436]: 2026-10-09 11:09:28.650359882 +0300 EAT m=+20.363447300 image pull-error  docker.io/library/alpine:latest unable to copy from source docker://alpine:latest: copying system image from manifest list: writing blob: adding layer with blob "sha256:e2de96513ba9eb53b431787ec8a65cdde380ac4772a3e4c4b714dcfde2a102b5"/""/"sha256:74d97c428c51a828f9051a7a40a53ff1fc99e54fc30323ce36760701b0b7f711": unpacking failed (error: exit status 1; output: potentially insufficient UIDs or GIDs available in user namespace (requested 0:42 for /etc/shadow): Check /etc/subuid and /etc/subgid if configured locally and run "podman system migrate": lchown /etc/shadow: invalid argument)
+Oct 09 11:10:07 omarchy-quattro podman[33674]: 2026-10-09 11:10:07.662396922 +0300 EAT m=+23.315179540 image pull-error  docker.io/library/alpine:latest unable to copy from source docker://alpine:latest: copying system image from manifest list: writing blob: adding layer with blob "sha256:e2de96513ba9eb53b431787ec8a65cdde380ac4772a3e4c4b714dcfde2a102b5"/""/"sha256:74d97c428c51a828f9051a7a40a53ff1fc99e54fc30323ce36760701b0b7f711": unpacking failed (error: exit status 1; output: potentially insufficient UIDs or GIDs available in user namespace (requested 0:42 for /etc/shadow): Check /etc/subuid and /etc/subgid if configured locally and run "podman system migrate": lchown /etc/shadow: invalid argument)
+Oct 09 11:12:01 omarchy-quattro omarchy-shell[2761]:   WARN scene: QML PanelSectionHeader at file:///usr/share/omarchy/shell/plugins/panels/bluetooth/Panel.qml[850:17]: Binding loop detected for property "height"
+Oct 09 11:12:03 omarchy-quattro bluetoothd[874]: src/profile.c:ext_io_disconnected() Unable to get io data for Hands-Free Voice gateway: getpeername: Transport endpoint is not connected (107)
+Oct 09 11:12:03 omarchy-quattro rfkill[33940]: block set for type bluetooth
+Oct 09 11:12:03 omarchy-quattro systemd[1]: Starting Load/Save RF Kill Switch Status...
+Oct 09 11:12:03 omarchy-quattro systemd[1]: Started Load/Save RF Kill Switch Status.
+Oct 09 11:12:08 omarchy-quattro systemd[1]: systemd-rfkill.service: Deactivated successfully.
+Oct 09 11:12:14 omarchy-quattro fcitx5[2943]: I2026-10-09 11:12:14.833834 instance.cpp:1272] Running autosave...
+Oct 09 11:12:14 omarchy-quattro fcitx5[2943]: I2026-10-09 11:12:14.843227 instance.cpp:1274] End autosave
+Oct 09 11:15:52 omarchy-quattro podman[34560]: 2026-10-09 11:15:52.417463836 +0300 EAT m=+15.974924746 image pull-error  docker.io/library/alpine:latest unable to copy from source docker://alpine:latest: copying system image from manifest list: writing blob: adding layer with blob "sha256:e2de96513ba9eb53b431787ec8a65cdde380ac4772a3e4c4b714dcfde2a102b5"/""/"sha256:74d97c428c51a828f9051a7a40a53ff1fc99e54fc30323ce36760701b0b7f711": unpacking failed (error: exit status 1; output: potentially insufficient UIDs or GIDs available in user namespace (requested 0:42 for /etc/shadow): Check /etc/subuid and /etc/subgid if configured locally and run "podman system migrate": lchown /etc/shadow: invalid argument)
+Oct 09 11:18:20 omarchy-quattro kernel: usb 1-4: reset full-speed USB device number 3 using xhci_hcd

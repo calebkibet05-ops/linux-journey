@@ -1,0 +1,11 @@
+    PID COMMAND         %CPU %MEM
+  16625 brave           29.7  2.5
+  13801 brave           10.7  3.7
+   3912 brave            5.2  3.4
+  13006 brave            4.9  4.5
+   4022 brave            4.7  1.4
+   5396 brave            4.4  2.1
+  17090 brave            4.3  2.3
+  12463 brave            2.9  3.7
+   2692 Hyprland         2.2  1.0
+  10484 brave            1.5  0.7
