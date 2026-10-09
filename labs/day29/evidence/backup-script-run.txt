@@ -1,0 +1,7 @@
+Starting backup...
+Source: /home/calebkibet/linux-journey/labs/day29/restore-test
+Archive: /home/calebkibet/linux-journey/labs/day29/backups/day29-backup-20261009-114450.tar.gz
+/home/calebkibet/linux-journey/labs/day29/backups/day29-backup-20261009-114450.tar.gz: OK
+Backup completed successfully.
+Archive: /home/calebkibet/linux-journey/labs/day29/backups/day29-backup-20261009-114450.tar.gz
+Checksum: /home/calebkibet/linux-journey/labs/day29/backups/day29-backup-20261009-114450.tar.gz.sha256

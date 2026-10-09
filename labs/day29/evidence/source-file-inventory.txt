@@ -1,0 +1,2 @@
+labs/day29/restore-test/config/app.conf
+labs/day29/restore-test/logs/app.log

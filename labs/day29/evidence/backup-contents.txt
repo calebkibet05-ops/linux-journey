@@ -1,0 +1,5 @@
+./
+./config/
+./config/app.conf
+./logs/
+./logs/app.log
